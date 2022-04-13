@@ -1,0 +1,129 @@
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center
+}
+
+.title {
+    position: absolute;
+    width: 550px;
+    height: 54px;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.105em;
+    color: var(--purple);
+    font-family: 'Poppins';
+    margin: 230px 150px;
+}
+
+.timer {
+    
+    margin: 10px;
+    width: 700px;
+    height: 99px;
+    margin: 300px 85px;
+    position: absolute;
+
+}
+
+#counter {
+    font-size: 60px;
+    color: var(--black);
+    letter-spacing: 15px;
+    font-family: 'Poppins';
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 100px;
+
+}
+
+.text {
+    position: absolute;
+    font-size: 20px;
+    word-spacing: 70px;
+    font-family: 'Poppins';
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    margin: 10px;
+    width: 350px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 420px 250px;
+    position: absolute;
+    font-family: 'Poppins';
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color)
+}
+
+.btn {
+    margin: 450px 330px;
+    position: absolute;
+}
+
+.btn-content {
+    width: 160px;
+    height: 46px;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: var(--purple);
+    color: #FFFFFF;
+    transition: .3s ease all; 
+    font-family: 'Poppins';
+}
+
+.btn-content:hover {
+    background-color:var(--black);
+    color: white;
+}
+
+.image {
+    height: 435px;
+    width: 607px;
+    border-radius: 0px;
+    margin-left: 800px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+/*Footer*/
+.content-footer{
+    text-align: center;
+    margin-top: 630px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Poppins';
+    color:var(--purple);
+}
+
+.gitHub, .linkedin{
+    font-size: 30px;
+    padding: 5px;
+    
+ }
+
+ footer a:visited{
+     color:var(--purple)
+ };
