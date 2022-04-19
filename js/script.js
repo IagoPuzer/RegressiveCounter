@@ -1,6 +1,5 @@
 function starTimer(duration, display) {
-    let timer = duration,
-        days, hours, minutes, seconds;
+    let timer = duration, days, hours, minutes, seconds;
 
     setInterval(function () {
         days = parseInt(timer / 86400, 10)
